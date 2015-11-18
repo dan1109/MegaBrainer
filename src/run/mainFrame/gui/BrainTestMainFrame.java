@@ -20,6 +20,7 @@ import tests.perceptionTestAlphanumericDisorder.gui.AlphanumericDisorder;
 import tests.perfectionTestLostTwin.gui.LostTwin;
 import tests.reactionTestSymbolCollection.gui.SymbolCollection;
 import tests.logicTestSymbolSudoku.gui.SymbolSudoku;
+import tests.memoryTestHiddenBlocks.gui.HiddenBlocks;
 import tests.memoryTestLostSymbols.gui.LostAnimals;
 import tests.motionTestCreepyInsects.gui.CreepyInsects;
 import tests.concentrationTestMixedNumbers.gui.MixedNumbers;
@@ -67,7 +68,7 @@ public class BrainTestMainFrame extends JFrame implements Runnable{
 	/***##Constructor##***/
 	public BrainTestMainFrame() {
 		instruction = new String();
-		numberOfTests=7;
+		numberOfTests=8;
 		
 		initialComponent();
 	}
@@ -156,7 +157,8 @@ public class BrainTestMainFrame extends JFrame implements Runnable{
 		jMITests[3].setText("Alphanumeric Disorder");
 		jMITests[4].setText("Lost Twin");
 		jMITests[5].setText("Creepy Insects");
-		jMITests[6].setText("Digit Collection");
+		jMITests[6].setText("Symbol Collection");
+		jMITests[7].setText("Hidden Blocks");
 		
 		
 		jMIInstruction.setText("Instruction"); 
@@ -248,6 +250,8 @@ public class BrainTestMainFrame extends JFrame implements Runnable{
 			new CreepyInsects().setVisible(true);
 		}else if(evt.getActionCommand() == "Symbol Collection"){
 			new SymbolCollection().setVisible(true);
+		}else if(evt.getActionCommand() == "Hidden Blocks"){
+			new HiddenBlocks().setVisible(true);
 		}else{
 			new MixedNumbers().setVisible(true);
 		}

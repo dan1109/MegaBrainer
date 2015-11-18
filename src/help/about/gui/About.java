@@ -27,19 +27,8 @@ public class About extends JFrame {
 	/***##Constructor##***/
 	public About() {
 		//write your message here
-		data = "@ This program is open for all. One can modify or change criterias of this program. \n\n" +
-				"It was the first game, I made. This may be is the last version of this game.  Actually this is my " +
-				"5th version of the game most parts are " +								
-				"as it were in the previous versions. The first version was written in C which had no graphics. Then I " +
-				"Made 2nd version, again in C, which had some extended features then I made This game in Java(3rd " +
-				"version) it had no graphical interface too. Next I made the game with a GUI(4th). But the graphics was " +
-				"not good enough and it was very low in design perspective. So I made this 5th version. I think it is " +
-				"good. :) \n\n" +
-				"The AI part is not any AI at all! I wrote it when I was really a child in programming. I have not " +
-				"changed it any bit since I wrote first, as it is really complex & bad code! But you know, it works " +
-				"just great. This program contains about 1500 & 31 images. I wish you will find it a simple & interesting "+
-				"game. \nThanks. \n\n				" +
-				"			  -Developer\n\n";
+		data = "@ It is a collection of brain games, each to strengthen different parts of brain. \n\nThanks. \n\n				" +
+				"\t\t-Developer\n\n";
 		
 		
 		initialComponent();
