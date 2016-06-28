@@ -1,4 +1,4 @@
-# MegaBrainer
+# :octopus: MegaBrainer
 #### A Fine Collection of Brain Dazzling Games
 
 Till now [this project](http://minhaskamal.github.io/MegaBrainer) comprises 8 brain games, each to strengthen different parts of the cerebrum.
